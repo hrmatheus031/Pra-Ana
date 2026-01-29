@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Você ❤️</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background-image: url("fundo.jpg");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 25px;
+      max-width: 420px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+
+      color: #ff4d88;
+      margin-bottom: 15px;
+   h1{
+  font-family:'Pacifico', cursive;
+  font-size:1.8rem;
+  color:#ff7aa2;
+  margin-bottom:15px;
+  animation: pulse 2s infinite;
+}
+ }
+
+    p {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      background-color: #ff4d88;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e63e76;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>💖 Para Você 💖</h1>
+
+    <p>
+      Eu te amo, minha princesa.<br><br>
+      Saiba que você é uma das pessoas mais importantes pra mim neste mundo.
+      Você apareceu do nada e, agora, passar um dia sem conversar com você
+      já é um sacrifício pra mim.<br><br>
+      Eu prometo, sua maluca, que vou te ver o mais rápido possível.<br><br>
+      <strong>Te amo muito, Ka ♥️</strong>
+    </p>
+
+    <button onclick="tocarMusica()">▶️ Tocar nossa música</button>
+
+    <audio id="musica">
+      <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <script>
+    function tocarMusica() {
+      document.getElementById("musica").play();
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
